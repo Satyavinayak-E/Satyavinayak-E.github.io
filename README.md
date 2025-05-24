@@ -1,6 +1,6 @@
 # 💼 satyavinayak-E.github.io
 
-This is my personal portfolio website, built using HTML, CSS, and JavaScript, based on the template by [Booststrapmade](https://bootstrapmade.com/).)
+This is my personal portfolio website, built using HTML, CSS, and JavaScript, based on the template by ([Booststrapmade](https://bootstrapmade.com/).)
 
 It showcases my projects, skills, resume, and contact information in a responsive, clean, and professional design.
 
