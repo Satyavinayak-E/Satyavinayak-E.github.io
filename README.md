@@ -27,10 +27,10 @@ It showcases my projects, skills, resume, and contact information in a responsiv
 ```bash
 Satya_vinayak/
 ├── assets/
-│   ├── css/                   # Animate On Scroll for scroll and slide based animations
-│   ├── img/                   # Bootstrap framework CSS 
-│   └── js/               # Main custom styles for the template
-│   └── vendors/
+│   ├── css/                   # CSS framework
+│   ├── img/                   # images required for the template 
+│   └── js/                    # JS file
+│   └── vendors/               # Animate On Scroll for scroll and slide based animations
 │
 ├── about.html                 
 ├── certificates.html               
