@@ -45,6 +45,12 @@
   scroll-behavior: smooth;
 }
 
+/*sitename*/
+.sitename {
+   font-family: Arial, sans-serif;
+  font-weight: bold;
+}
+
 /*--------------------------------------------------------------
 # General Styling & Shared Classes
 --------------------------------------------------------------*/
