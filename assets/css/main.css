@@ -54,6 +54,10 @@ body {
   font-family: var(--default-font);
 }
 
+.favicon-img {
+    border-radius: 20px;
+  }
+
 a {
   color: var(--accent-color);
   text-decoration: none;
