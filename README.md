@@ -36,7 +36,7 @@ Satya_vinayak/
 ├── certificates.html               
 ├── contact.html               
 ├── experience.html               
-├── index.html                 # Main homepage to open the template the browser
+├── index.html                 # Main homepage to open the template in the browser
 ├── resume.html                
 ├── license.txt                # License information 
 └── README.txt                 # Project documentation 
