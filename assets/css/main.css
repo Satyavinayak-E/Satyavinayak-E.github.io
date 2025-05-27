@@ -54,10 +54,6 @@ body {
   font-family: var(--default-font);
 }
 
-.favicon-img {
-    border-radius: 50px;
-  }
-
 a {
   color: var(--accent-color);
   text-decoration: none;
@@ -78,7 +74,7 @@ h6 {
   color: var(--heading-color);
   font-family: var(--heading-font);
 }
-/*Hero Section Card*/
+
     .cover {
       position: relative;
       min-height: 100vh;
@@ -117,6 +113,7 @@ h6 {
       bottom: -150px;
       right: -150px;
     }
+    
     .hero-card {
       display: flex;
       flex-direction: column;
@@ -158,7 +155,9 @@ h6 {
       .hero-card p {
         font-size: 1.2rem;
       }
-   }
+    }
+
+
 /*--------------------------------------------------------------
 # Global Header
 --------------------------------------------------------------*/
@@ -221,6 +220,62 @@ h6 {
     order: 3;
   }
 }
+
+/*-------------------------------------
+profile-header
+--------------------------------------*/
+.cc-profile-image a {
+  position: relative;
+  display: inline-block;
+  height: 180px;
+  width: 180px;
+}
+
+.cc-profile-image a:before {
+  content: "";
+  border: 15px solid rgba(135, 206, 235, 0.5);
+  border-radius: 50%;
+  height: 180px;
+  width: 180px;
+  position: absolute;
+  top: 0;
+  left: 0;
+  animation: pulsate 1.6s ease-out infinite;
+  opacity: 0.0;
+  z-index: 1;
+}
+
+@keyframes pulsate {
+  0% {
+    transform: scale(1);
+    opacity: 0.6;
+  }
+  100% {
+    transform: scale(1.5);
+    opacity: 0;
+  }
+}
+
+.cc-profile-image img {
+  border-radius: 50%;
+  height: 180px;
+  width: 180px;
+  border: 15px solid transparent;
+  z-index: 2;
+  position: relative;
+  transition: all .3s ease-out;
+}
+
+.cc-profile-image a:hover img {
+  transform: scale(1.06);
+}
+
+.cc-profile-image a:hover:before {
+  animation: none;
+}
+
+
+
 
 /*--------------------------------------------------------------
 # Navigation Menu
@@ -752,7 +807,7 @@ section,
   color: var(--heading-color);
 }
 
-.hero .btn-get-started {
+ .btn-get-started {
   color: var(--contrast-color);
   background: var(--accent-color);
   font-family: var(--heading-font);
