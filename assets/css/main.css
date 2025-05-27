@@ -78,8 +78,87 @@ h6 {
   color: var(--heading-color);
   font-family: var(--heading-font);
 }
-
-
+/*Hero Section Card*/
+    .cover {
+      position: relative;
+      min-height: 100vh;
+      background-color: #20c997;
+      color: #0A0A0A;
+      overflow: hidden;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      padding: 1rem;
+    }
+    .top-accent {
+      background-color: #0A0A0A;
+      height: 8px;
+      width: 100%;
+      position: absolute;
+      top: 0;
+      left: 0;
+    }
+    .blob-left, .blob-right {
+      position: absolute;
+      width: 300px;
+      height: 300px;
+      border-radius: 50%;
+      opacity: 0.8;
+      z-index: 0;
+      pointer-events: none;
+    }
+    .blob-left {
+      background-color: #6610f2;
+      top: -150px;
+      left: -150px;
+    }
+    .blob-right {
+      background-color: #FD7E14;
+      bottom: -150px;
+      right: -150px;
+    }
+    .hero-card {
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
+      background-color: #f8f8f8;
+      padding: 2rem;
+      border-radius: 15px;
+      border: 3px solid #F4A261;
+      box-shadow: 0 0 10px rgba(0,0,0,0.1);
+      max-width: 100%;
+    }
+    .hero-card h2 {
+      margin-bottom: 0.5rem;
+      font-size: 2rem;
+      white-space: nowrap;
+    }
+    .hero-card p {
+      font-size: 1rem;
+      color: #333;
+      white-space: nowrap;
+    }
+    @media (min-width: 600px) {
+      .blob-left, .blob-right {
+        width: 400px;
+        height: 400px;
+      }
+      .blob-left {
+        top: -100px;
+        left: -100px;
+      }
+      .blob-right {
+        bottom: -100px;
+        right: -100px;
+      }
+      .hero-card h2 {
+        font-size: 2.5rem;
+      }
+      .hero-card p {
+        font-size: 1.2rem;
+      }
+   }
 /*--------------------------------------------------------------
 # Global Header
 --------------------------------------------------------------*/
@@ -277,88 +356,6 @@ h6 {
     visibility: visible;
   }
 }
-
-/*Hero Section Card*/
-  .cover {
-      position: relative;
-      min-height: 100vh;
-      background-color: #20c997;
-      color: #0A0A0A;
-      overflow: hidden;
-      display: flex;
-      justify-content: center;
-      align-items: center;
-      padding: 1rem;
-    }
-    .top-accent {
-      background-color: #0A0A0A;
-      height: 8px;
-      width: 100%;
-      position: absolute;
-      top: 0;
-      left: 0;
-    }
-    .blob-left, .blob-right {
-      position: absolute;
-      width: 300px;
-      height: 300px;
-      border-radius: 50%;
-      opacity: 0.8;
-      z-index: 0;
-      pointer-events: none;
-    }
-    .blob-left {
-      background-color: #6610f2;
-      top: -150px;
-      left: -150px;
-    }
-    .blob-right {
-      background-color: #FD7E14;
-      bottom: -150px;
-      right: -150px;
-    }
-    .hero-card {
-      display: flex;
-      flex-direction: column;
-      justify-content: center;
-      align-items: center;
-      background-color: #f8f8f8;
-      padding: 2rem;
-      border-radius: 15px;
-      border: 3px solid #F4A261;
-      box-shadow: 0 0 10px rgba(0,0,0,0.1);
-      max-width: 100%;
-    }
-    .hero-card h2 {
-      margin-bottom: 0.5rem;
-      font-size: 2rem;
-      white-space: nowrap;
-    }
-    .hero-card p {
-      font-size: 1rem;
-      color: #333;
-      white-space: nowrap;
-    }
-    @media (min-width: 600px) {
-      .blob-left, .blob-right {
-        width: 400px;
-        height: 400px;
-      }
-      .blob-left {
-        top: -100px;
-        left: -100px;
-      }
-      .blob-right {
-        bottom: -100px;
-        right: -100px;
-      }
-      .hero-card h2 {
-        font-size: 2.5rem;
-      }
-      .hero-card p {
-        font-size: 1.2rem;
-      }
-    }
 
 /* Mobile Navigation */
 @media (max-width: 1199px) {
