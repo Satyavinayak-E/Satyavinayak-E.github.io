@@ -42,6 +42,9 @@ Satya_vinayak/
 └── README.txt                 # Project documentation 
 ```
 ---
+## A Glimpse Into My Potfolio Website 
+![Portfolio Preview](Portfolio_Thumbnail.jpg)
+
 
 ### 📫 Contact 
 Feel free to reach out via the contact form on the site or email me at:  
