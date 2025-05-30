@@ -42,7 +42,7 @@ Satya_vinayak/
 └── README.txt                 # Project documentation 
 ```
 ---
-## A Glimpse Into My Potfolio Website 
+## 📸 A Glimpse Into My Potfolio Website 
 ![Portfolio Preview](Portfolio_Thumbnail.jpg)
 
 
