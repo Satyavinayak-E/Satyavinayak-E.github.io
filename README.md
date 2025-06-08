@@ -26,20 +26,40 @@ It showcases my projects, skills, resume, and contact information in a responsiv
 ## 📁 Project Structure 
 ```bash
 Satya_vinayak/
-├── assets/
-│   ├── css/                   # CSS framework
-│   ├── img/                   # images required for the template 
-│   └── js/                    # JS file
-│   └── vendors/               # Animate On Scroll for scroll and slide based animations
-│
-├── about.html                 
-├── certificates.html               
-├── contact.html               
-├── experience.html               
-├── index.html                 # Main homepage to open the template in the browser
-├── resume.html                
-├── license.txt                # License information 
-└── README.txt                 # Project documentation 
+|   about.html
+|   certificates.html
+|   contact.html
+|   ESVResume.pdf
+|   experience.html
+|   index.html                             # Main homepage to open the template in the browser
+|   License.txt                            # License information 
+|   Portfolio_Thumbnail.jpg                # Snippet of the website
+|   README.md
+|   Readme.txt                             # Project documentation
+|   resume.html
+|   
+\---assets
+    +---css                                # CSS framework
+    +---img                                # images required for the template
+    |   +---certificates
+    |   \---exp
+    +---js                                 # JS file
+    \---vendor                             # Animate On Scroll for scroll and slide based animations
+        +---aos
+        +---bootstrap
+        |   +---css
+        |   \---js
+        +---bootstrap-icons
+        |   \---fonts
+        +---glightbox
+        |   +---css
+        |   \---js
+        +---imagesloaded
+        +---isotope-layout
+        +---php-email-form
+        +---purecounter
+        +---swiper
+        \---waypoints                
 ```
 ---
 ## 📸 A Glimpse Into My Potfolio Website 
