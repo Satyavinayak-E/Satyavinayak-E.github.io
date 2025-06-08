@@ -25,7 +25,7 @@ It showcases my projects, skills, resume, and contact information in a responsiv
 
 ## 📁 Project Structure 
 ```bash
-Satya_vinayak/
+Satya_vinayak-E/
 |   about.html
 |   certificates.html
 |   contact.html
@@ -67,7 +67,7 @@ Satya_vinayak/
 
 
 ### 📫 Contact 
-Feel free to reach out via the contact form on the site or email me at:  
+Feel free to reach out via the contact form on the site or email me at :  
 [![LinkedIn](https://img.shields.io/badge/LinkedIn-blue?style=flat&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/satya-vinayak-e-65636033b)
 [![GitHub](https://img.shields.io/badge/GitHub-black?style=flat&logo=github)](https://github.com/Satyavinayak-E)
 [![Email](https://img.shields.io/badge/Email-D14836?style=flat&logo=gmail&logoColor=white)](mailto:satyavinayakerragunta@gmail.com)
