@@ -63,7 +63,7 @@ Satya_vinayak-E/
 ```
 ---
 ## 📸 A Glimpse Into My Potfolio Website 
-![Portfolio Preview](Portfolio_Thumbnail.jpg)
+![Portfolio Preview](Portfolio_Thumbnail.png)
 
 
 ### 📫 Contact 
