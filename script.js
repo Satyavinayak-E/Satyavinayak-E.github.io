@@ -42,7 +42,7 @@ const termBody = document.getElementById('term-body');
 if(termBody){
   const lines = [
     { html: '<span class="g">$</span> whoami', pause: 300 },
-    { html: 'E_Satya_Vinayak <span class="m">·</span> Cloud Engineer', pause: 500 },
+    { html: 'E_Satya_Vinayak <span class="m">·</span> DevOps Engineer', pause: 500 },
     { html: '', pause: 150 },
     { html: '<span class="g">$</span> terraform plan -target=module.satya', pause: 300 },
     { html: '<span class="y">Plan:</span> 3 to add, 0 to change, 0 to destroy.', pause: 400 },
